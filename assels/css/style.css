@@ -1,0 +1,4308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+}
+
+.main-title h5 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.main-title h2 {
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/********header new*********/
+.navbar-nav {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+header .bg-dark {
+    /* background-color: black; */
+
+}
+
+.nav-item {
+    margin-left: auto;
+    padding: 1rem 2rem;
+}
+
+/*****************/
+/********header*********/
+header {
+    /* padding-top: 4rem; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.d-header {
+    background-color: black;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-header nav ul {
+    display: flex;
+
+}
+
+.main-header nav ul li a {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin-right: 5rem;
+}
+
+.main-header nav ul li:last-child a {
+    /* margin-right: 0; */
+}
+
+.main-header nav ul li a:hover {
+    color: #C8191C;
+
+}
+
+/********************/
+
+/********hero*********/
+#hero {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    /* background-position: top center; */
+    /* background-size: cover; */
+    padding-top: 27rem;
+    position: relative;
+    margin: -1rem;
+
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../image/Vector\ \(1\).png);
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+#hero .hero-data {
+    text-align: center;
+    padding-bottom: 22rem;
+    position: relative;
+    z-index: 99;
+}
+
+#hero .hero-data h1 {
+    font-weight: 700;
+    font-size: 13rem;
+    line-height: 16rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#hero .hero-data p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5.5rem 0rem;
+}
+
+#hero .hero-data span {
+    color: #C8191C;
+}
+
+.btn-danger {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6.3rem;
+    background-color: #C8191C;
+}
+
+.btn-danger:hover {
+    color: black;
+    background-color: #C8191C;
+}
+
+/********************/
+
+/********Discover*********/
+#Discover {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+
+
+}
+
+.dic-all-img {
+    padding: 5rem 0 23.5rem 0;
+
+}
+
+.dis-line {
+    padding-left: 10rem;
+    position: relative;
+}
+
+.dis-line::before {
+    content: '';
+    position: absolute;
+    top: 0.2rem;
+    left: -9rem;
+    width: 0.2rem;
+    height: 50.6rem;
+    color: yellow;
+    background-color: white;
+}
+
+.dic-all-img img {
+    margin-left: 6.55rem;
+}
+
+.dic-all-img:nth-child(4) h4 {
+    padding-top: 2rem;
+}
+
+#Discover h4 {
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#Discover p {
+    width: 54.1rem;
+    padding-top: 10rem;
+}
+
+#Discover h3 {
+    width: 574px;
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#Discover .btn-danger {
+    margin-top: 9.9rem;
+
+}
+
+/********************/
+
+/********super*********/
+#super {
+    padding: 21rem 0;
+    background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
+    margin: -1rem;
+
+}
+
+#super h2 {
+    font-weight: 700;
+    font-size: 12rem;
+    line-height: 19.1rem;
+    color: #FFFFFF;
+}
+
+#super p {
+    max-width: 48.5rem;
+    padding-top: 6rem;
+}
+
+#super .super-img {
+    padding-left: 10rem;
+    margin-bottom: 6rem;
+}
+
+/********************/
+
+/********services*********/
+#services {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding: 0 0 22rem 0;
+
+}
+
+#services h5 {
+    text-align: center;
+}
+
+#services h2 {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+#services img {
+    width: 100%;
+}
+
+#services .ser-1 {
+    border: 0.2rem solid grey;
+    padding: 5rem;
+}
+
+#services .ser-1 h4 {
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5rem 0 2rem 0;
+}
+
+.serv {
+    gap: 10rem 0;
+}
+
+/* #services .col-md-6:nth-child(odd) {
+    padding: 20rem 10rem 0rem 0rem;
+}
+
+#services .col-md-6:nth-child(even) {
+    padding: 20rem 0rem 0rem 10rem;
+} */
+
+/********************/
+
+/********why*********/
+
+#why {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    /* padding: 20rem 0 0 0; */
+    text-align: center;
+    margin: -1rem;
+
+}
+
+.why-data h2 {
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 17.2rem;
+}
+
+#why img {
+    margin-left: 13rem;
+}
+
+#why h4 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/********************/
+
+/********horoscope*********/
+#horoscope {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    margin: -1rem;
+
+}
+
+#horoscope h5 {
+    text-align: center;
+}
+
+#horoscope h2 {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+#horoscope h4 {
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.hor-id {
+    display: flex;
+    margin: 0 5rem;
+}
+
+#horoscope .hor-data {
+    padding: 0rem 2rem;
+}
+
+.horo-2 {
+    padding-top: 10rem;
+}
+
+.hor-button {
+    text-align: center;
+}
+
+#horoscope .btn-danger {
+    margin-top: 9.9rem;
+}
+
+.teem {
+    padding: 21rem 0rem;
+}
+
+.teem h5 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.teem h3 {
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 13.6rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/********************/
+
+/********Appointment*********/
+#Appointment {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-bottom: 20rem;
+    margin: -1rem;
+
+}
+
+/* .app-data {
+    padding-top: 33rem;
+} */
+#Appointment .row {
+    align-items: center;
+}
+
+.app-data h2 {
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.app-from .from-label {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 3rem;
+
+}
+
+.app-from .form-control,
+.form-select {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    margin-bottom: 8rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    padding: 4rem 3rem;
+}
+
+.app-from1,
+.app-from2 {
+    padding-right: 5rem;
+}
+
+.app-from option {
+    background-color: #000000;
+    color: grey;
+}
+
+/********************/
+
+/********MEMBERSHIP*********/
+#MEMBERSHIP {
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
+    text-align: center;
+    position: relative;
+
+}
+
+.mem-data {
+    padding: 10rem 0;
+    position: relative;
+    z-index: 99;
+
+}
+
+.mem-data h2 {
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mem-data p {
+    padding-bottom: 5rem;
+}
+
+#MEMBERSHIP::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../image/Vector2.png);
+    background-position: center center;
+    background-size: 88% auto;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+}
+
+/********************/
+
+/******Member-price*******/
+
+
+#member-price {
+    padding: 20rem 0;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#member-price .main-title {
+    text-align: center;
+}
+
+.member-block {
+    /* text-align: center; */
+    margin: 8rem 4rem;
+    padding: 6rem 5rem;
+    border: 2px solid white;
+}
+
+.member-data {
+    padding: 2rem 4rem;
+}
+
+.member-block h6 {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* padding-top: 6rem; */
+}
+
+.member-block h3 {
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 9.8rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.member-block h3 span {
+    font-size: 2.4rem;
+
+}
+
+.member-block ul {
+    padding-left: 0;
+}
+
+.member-block li {
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.member-block li i {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.member-block .btn-danger {
+    margin-top: 8rem;
+}
+
+.member-block:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.member-block:hover .btn-danger {
+    background-color: #fff;
+    color: red;
+}
+
+/********************/
+
+/******CLIENT*******/
+#CLIENT {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#CLIENT h2 {
+    text-align: center;
+    margin: -1rem;
+
+}
+
+#CLIENT .main-img {
+    text-align: center;
+    padding: 10rem 15rem;
+}
+
+#CLIENT .main-img img {
+    display: inline-block;
+
+}
+
+#CLIENT .swiper-wrapper {
+    padding: 0 20rem;
+
+}
+
+.icone-data {
+    position: relative;
+}
+
+.icone .swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    color: grey;
+    font-size: 22px;
+}
+
+.client-slider .slider-data p {
+    padding-top: 10rem;
+    width: 46.5rem;
+}
+
+.client-slider .slider-data {
+    position: relative;
+
+}
+
+.client-slider .slider-data span img {
+    position: absolute;
+    top: 58rem;
+    left: -3rem;
+
+}
+
+.client-slider .slider-data h6 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+}
+
+/********************/
+
+/******#blog*******/
+#blog {
+    padding: 19rem 0;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#blog .main-title {
+    text-align: center;
+}
+
+.blog-data {
+    padding-top: 8rem;
+}
+
+#blog h4 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 6rem 0 2rem 0;
+    width: 36.1rem;
+}
+
+.blog-data p {
+    width: 36.1rem;
+}
+
+/********************/
+
+
+/******BOODOO*******/
+#BOODOO {
+    padding-bottom: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#BOODOO hr {
+    width: 100%;
+    height: 1px;
+    color: #fff;
+    margin: 0;
+}
+
+#BOODOO h4 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 0 2rem 2rem;
+}
+
+#BOODOO ul li {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+.footer-data p {
+    max-width: 27.3rem;
+    padding-top: 2rem;
+}
+
+#BOODOO ul li a i {
+    color: #fff;
+    padding-right: 1rem;
+}
+
+.footer-data {
+    padding: 8rem 0;
+}
+
+#BOODOO .copyright {
+    text-align: center;
+    padding-bottom: 4.5rem;
+
+}
+
+#BOODOO .copyright a {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+/* .footer-data .fo-block {
+    flex-basis: 20%;
+} */
+
+/********************/
+
+/********scroll********/
+
+.scrollTop {
+    position: fixed;
+    right: 10%;
+    bottom: 10px;
+    background-color: #BE3F48;
+    padding: 10px 50px;
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+    font-size: 25px;
+    color: #fff;
+}
+
+/********************/
+
+/* @media screen and (max-width: 1650px) {
+    #hero .hero-data h1 {
+        font-size: 11rem;
+        line-height: 12rem;
+    }
+    #hero .hero-data {
+        padding-bottom: 9rem;
+    }
+    .dic-all-img {
+        padding: 2rem 0 15rem 0;
+    }
+    #Discover{
+        padding-top: 18rem;
+    }
+    #Discover img {
+        max-width: 90%;
+    }
+    .dic-all-img img {
+        margin-left: 3.5rem;
+    }
+    .dis-line::before {
+        left: 1rem;
+    }
+    #Discover h4 {
+        font-size: 5rem;
+    }
+
+    .main-title h2 {
+        font-size: 7rem;
+    }
+
+    #super {
+        padding: 18rem 0;
+    }
+
+    #super h2 {
+        font-size: 12rem;
+        line-height: 17.1rem;
+    }
+
+    #services {
+        padding-bottom: 19rem;
+    }
+    #services .col-md-6:nth-child(odd) {
+        padding: 18rem 8rem 0rem 0rem;
+    }
+    #services .col-md-6:nth-child(even) {
+        padding: 18rem 0rem 0rem 8rem;
+    }
+    #why p {
+        width: 32.5rem;
+    }
+    #why img {
+        margin-left: 8rem;
+    }
+    #why h4 {
+        font-size: 2.6rem;
+        padding: 2rem 0
+    }
+    #Appointment {
+        padding-bottom: 18rem;
+    }
+    #horoscope {
+        padding-top: 18rem;
+    }
+
+    #horoscope h4 {
+        font-size: 4.5rem;
+        line-height: 6.3rem;
+    }
+
+    .teem {
+        padding: 18rem 0rem;
+    }
+
+    .teem h3 {
+        font-size: 9rem;
+        line-height: 9.6rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        padding: 3rem 2rem;
+    }
+
+    #member-price {
+        padding: 18rem 0;
+    }
+    .member-block {
+        margin: 6rem 1rem;
+        padding: 6rem 4.4rem;
+    }
+    #CLIENT .swiper-wrapper {
+        padding: 0 11rem;
+    }
+    #CLIENT .main-img {
+        padding: 8rem 1rem;
+    }
+    #blog {
+        padding: 18rem 0;
+    }
+
+    .blog-data {
+        padding-top: 7rem;
+    }
+    .blog-data img {
+        max-width: 90%;
+    }
+    .blog-data p {
+        width: 32.1rem;
+        font-size: 1.6rem;
+    }
+    #BOODOO {
+        padding-bottom: 18rem;
+    }
+} */
+/* @media screen and (max-width: 1440px) {
+    #hero .hero-data h1 {
+        font-size: 9rem;
+    }
+    #Discover {
+        padding-top: 15rem;
+    }
+    .dic-all-img {
+        padding: 2rem 0 12rem 0;
+    }
+    #Discover h4 {
+        font-size: 4rem;
+    }
+    .dic-all-img img {
+        margin-left: 2rem;
+    }
+    .main-title h2 {
+        font-size: 6rem;
+    }
+} */
+
+
+
+
+
+
+/* @media screen and (max-width:992px) {
+    #hero .hero-data h1 {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 7rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1rem;
+        padding: 1rem 0rem;
+    }
+
+    .btn-danger {
+        font-size: 2rem;
+        width: 20rem;
+        height: 5rem;
+    }
+
+    #Discover {
+        padding-top: 10rem;
+    }
+
+    #Discover h4 {
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 1rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 2.5rem;
+        width: 55%;
+    }
+
+    .dic-all-img {
+        padding: 1rem 0 7rem 0;
+    }
+
+    .main-title h2 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .dis-line::before {
+        height: 22rem;
+    }
+
+    #Discover p {
+        padding-top: 2rem;
+        font-size: 1rem;
+        width: 31rem;
+        line-height: 2rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 2rem;
+    }
+
+    #super {
+        padding: 10rem 0;
+    }
+
+    #super h2 {
+        font-size: 5rem;
+        line-height: 6.5rem;
+    }
+} */
+
+/* @media screen and (min-width:1920px) {
+    .container {
+        min-width: 170rem;
+        padding: 0 1rem;
+    }
+
+} */
+
+
+/*************layout-2***********/
+
+
+#body {
+    font-family: 'Alegreya';
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+#hero-2 {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#hero-2 .hero-data-2 {
+    margin: 22rem 0;
+    position: relative;
+}
+
+#hero-2 h1 {
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 16rem;
+    color: #FFFFFF;
+}
+
+#hero-2 SPAN {
+    color: #C8191C;
+}
+
+#hero-2 p {
+    width: 550px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin: 5.5rem 0;
+}
+
+#hero-2 .img-block {
+    margin: 20rem 0;
+    text-align: center;
+}
+
+#hero-2 .img-block img {
+    margin-left: 2rem;
+}
+
+#hero-2 .btn-danger {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6.3rem;
+    background-color: #C8191C;
+}
+
+#hero-2 .star {
+    position: absolute;
+    top: 29%;
+    left: 59%;
+}
+
+#hero-2 .star img {
+    max-width: 20%;
+}
+
+#hero-2 .star1 {
+    position: absolute;
+    top: 39%;
+    left: 53%;
+}
+
+#hero-2 .star1 img {
+    max-width: 20%;
+}
+
+#hero-2 .star2 {
+    position: absolute;
+    top: 22%;
+    left: 52%;
+    opacity: 0.5;
+}
+
+#hero-2 .star2 img {
+    max-width: 50%;
+}
+
+#hero-2 .star3 {
+    position: absolute;
+    top: 61%;
+    left: 49%;
+}
+
+#hero-2 .star4 {
+    position: absolute;
+    top: 19%;
+    left: 76%;
+}
+
+#hero-2 .star4 img {
+    max-width: 40%;
+}
+
+#hero-2 .star5 {
+    position: absolute;
+    top: 18%;
+    left: 86%;
+}
+
+#hero-2 .star5 img {
+    max-width: 50%;
+}
+
+#hero-2 .star6 {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+}
+
+#hero-2 .star6 img {
+    max-width: 30%;
+}
+
+#hero-2 .star7 {
+    position: absolute;
+    top: 55%;
+    right: 3%;
+}
+
+#hero-2 .star7 img {
+    max-width: 40%;
+}
+
+#hero-2 .star8 {
+    position: absolute;
+    bottom: 17%;
+    right: 8%;
+}
+
+#hero-2 .star8 img {
+    max-width: 30%;
+}
+
+#hero-2 .star9 {
+    position: absolute;
+    bottom: 3%;
+    right: 6%;
+}
+
+#hero-2 .star9 img {
+    max-width: 25%;
+    opacity: 0.3;
+}
+
+#hero-2 .star10 {
+    position: absolute;
+    bottom: -2%;
+    right: 19%;
+}
+
+#hero-2 .star10 img {
+    max-width: 19%;
+    opacity: 0.3;
+}
+
+#hero-2 .star11 {
+    position: absolute;
+    bottom: -7%;
+    right: 27%;
+}
+
+#hero-2 .star11 img {
+    max-width: 35%;
+    opacity: 0.3;
+}
+
+#hero-2 .star12 {
+    position: absolute;
+    bottom: 4%;
+    right: 37%;
+}
+
+#hero-2 .star12 img {
+    max-width: 50%;
+    opacity: 0.8;
+}
+
+#hero-2 .star13 {
+    position: absolute;
+    bottom: 17%;
+    right: 44%;
+}
+
+#hero-2 .star13 img {
+    max-width: 35%;
+    opacity: 1;
+}
+
+/********************/
+
+/*********Discover-2*********/
+#Discover-2 {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#Discover-2 .main-title {
+    padding-top: 19rem;
+    width: 60.5rem;
+}
+
+#Discover-2 .main-title h2 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#Discover-2 .main-title p {
+    margin: 5rem 0;
+}
+
+#Discover-2 .btn-danger {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6.3rem;
+    background-color: #C8191C;
+}
+
+/************************************/
+
+/***************Disicone**************/
+#Disicone {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#Disicone .dic-2img img {
+    max-width: 80%;
+    margin-left: 20rem;
+}
+
+#Disicone .btn-danger {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6.3rem;
+    background-color: #C8191C;
+}
+
+#Disicone .dis2img img {
+    margin-left: 5.5rem;
+}
+
+#Disicone h4 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 7rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.dis2img:nth-child(4) h4 {
+    padding-top: 2rem;
+}
+
+.disimg2 {
+    padding: 20rem 0;
+}
+
+/***********************/
+
+/**********SERVICES2**********/
+#SERVICES2 {
+    padding-bottom: 20rem;
+    background: linear-gradient(360deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#SERVICES2 .col-md-4 {
+    width: 33.7%;
+}
+
+#SERVICES2 .seri2 .col-md-4 {
+    width: 34%;
+}
+
+#SERVICES2 h2 {
+    font-size: 7rem;
+    line-height: 10rem;
+}
+
+#SERVICES2 .serimg1 .boredr {
+    text-align: center;
+    padding: 6.5rem 6.4rem;
+    border: 2px solid grey;
+}
+
+#SERVICES2 h3 {
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    color: #FFFFFF;
+    text-align: start;
+    padding: 3rem 0 2rem 0;
+}
+
+#SERVICES2 p {
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+
+}
+
+/******************************/
+
+/************WHY2**************/
+#WHY2 {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#WHY2 .whydata2 img {
+    margin: 0 auto;
+}
+
+#WHY2 .whydata2 h4 {
+    padding: 3rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#WHY2 .whydata2 p {
+    text-align: center;
+}
+
+/****************************/
+
+/***********Horoscope2************/
+#Horoscope2 {
+    background: linear-gradient(360deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+}
+
+#Horoscope2 .horp {
+    width: 32.5rem;
+    padding-top: 9.6rem;
+}
+
+#Horoscope2 .hor-id {
+    padding: 6rem 0;
+}
+
+#Horoscope2 .hor-data {
+    padding: 2.4rem 6rem 0 0;
+}
+
+#Horoscope2 .hor-data2 {
+    padding: 2.4rem 0 0 6rem;
+}
+
+#Horoscope2 .hor-data h4,
+#Horoscope2 .hor-data2 h4 {
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#Horoscope2 .hor-data p,
+#Horoscope2 .hor-data2 p {
+    width: 16.5rem;
+}
+
+#Horoscope2 .hormaindata {
+    padding-top: 28rem;
+}
+
+#Horoscope2 .horbtn {
+    text-align: center;
+}
+
+#Horoscope2 .btn-danger {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6.3rem;
+    background-color: #C8191C;
+}
+
+/******************************/
+
+/**********OUR-TEAM2************/
+#OUR-TEAM2 {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    text-align: center;
+}
+
+#OUR-TEAM2 .ot-img img {
+    display: inline-block;
+    padding-top: 10rem;
+}
+
+/*********************************/
+
+/***********MEMBERSHIP2***********/
+#MEMBERSHIP2 {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#MEMBERSHIP2 .main-title {
+    /* align-items: center; */
+    padding-top: 20rem;
+}
+
+#MEMBERSHIP2 .membl-2 {
+    text-align: center;
+}
+
+#MEMBERSHIP2 .member-block .btn-danger {
+    font-size: 2.4rem;
+}
+
+#MEMBERSHIP2 .carousel-control-next {
+    font-size: 5rem;
+}
+
+#MEMBERSHIP2 .fa-angle-right {
+    margin-left: 12rem;
+}
+
+/*******************************/
+
+
+/***********Appointment2************/
+#Appointment2 {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+}
+
+#Appointment2 .main-title {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+#Appointment2 .msg .form-control {
+    height: 25rem;
+}
+
+#Appointment2 .app-from1 {
+    padding-right: 4rem;
+}
+
+#Appointment2 .app-from2 {
+    padding-left: 4rem;
+}
+
+#Appointment2 .btn-danger {
+    font-size: 2.4rem;
+}
+
+#Appointment2 .app-from {
+    padding-bottom: 11.6rem;
+}
+
+/********************************/
+
+/***********BECOME2***************/
+#BECOME2 {
+    /* padding-top: 20rem; */
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    text-align: center;
+    position: relative;
+}
+
+#BECOME2::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../image/Vector2.png);
+    background-position: center center;
+    background-size: 88% auto;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+}
+
+#BECOME2 .mem-data .btn-danger {
+    font-size: 2.4rem;
+}
+
+/***********************************/
+
+/************HAPPY2*************/
+#HAPPY2 {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#HAPPY2 h2 {
+    padding: 20rem 0 10rem 0;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#HAPPY2 .main-img img {
+    margin: 0 auto;
+}
+
+#HAPPY2 .swiper-wrapper {
+    /* margin: 0 auto; */
+    margin-left: 26rem;
+}
+
+#HAPPY2 .slider-data {
+    position: relative;
+}
+
+#HAPPY2 .slider-data span {
+    position: absolute;
+    bottom: 10rem;
+    left: -2rem;
+}
+
+#HAPPY2 .slider-data .cli-data p {
+    padding-top: 10.9rem;
+    width: 46.5rem;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    /* margin-bottom: 28rem; */
+    font-size: 22px;
+}
+
+/********************************/
+
+/****************BLOG2*************/
+#BLOG2 {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+
+}
+
+#BLOG2 .main-title {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+#BLOG2 .blogda-2 {
+    /* align-items: center; */
+    padding: 9.9rem 0 0 6rem;
+}
+
+#BLOG2 .blogda-2 h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#BLOG2 .blog2 {
+    padding-top: 8rem;
+}
+
+/************************************/
+
+/***************BOODOO2***************/
+
+
+/*************************************/
+
+
+@media screen and (max-width:1919px) {
+    #hero .hero-data {
+        padding-bottom: 7rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 9rem;
+        line-height: 10rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding: 2rem 0rem;
+    }
+
+    .btn-danger {
+        font-size: 2rem;
+        width: 20rem;
+        height: 5rem;
+    }
+
+    #Discover {
+        padding-top: 10rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 7.5rem;
+        max-width: 40%;
+    }
+
+    #Discover h4 {
+        font-size: 4rem;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 10rem 0;
+    }
+
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 1.3rem;
+    }
+
+    .Discover-data img {
+        max-width: 70%;
+    }
+
+    #Discover p {
+        padding-top: 7rem;
+        width: 46.5rem;
+    }
+
+    .dis-line::before {
+        left: -14rem;
+        height: 34rem;
+    }
+
+    .main-title h2 {
+        font-size: 5.5rem;
+        line-height: 8rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 3rem;
+    }
+
+    #super {
+        padding: 10rem 0;
+    }
+
+    #super p {
+        padding-top: 4rem;
+    }
+
+    #super h2 {
+        font-size: 7rem;
+        line-height: 11rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 4.4rem;
+        max-width: 95%;
+    }
+
+    #services {
+        padding-bottom: 10rem;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 2.9rem;
+        padding: 2rem 0 0 0;
+        line-height: 5rem;
+    }
+
+    .serv {
+        gap: 6rem 0;
+        margin: 0 8rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 10rem;
+    }
+
+    #why img {
+        margin-left: 12rem;
+        max-width: 35%;
+    }
+
+    #why h4 {
+        font-size: 2.5rem;
+        padding: 1rem 0
+    }
+
+    #why p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .hor-id {
+        margin: 0 3.5rem;
+    }
+
+    .horo-2 {
+        padding-top: 4rem;
+    }
+
+    #horoscope {
+        padding-top: 10rem;
+    }
+
+    .hor-id img {
+        width: 67%;
+        height: 67%;
+    }
+
+    #horoscope .hor-data {
+        padding: 0rem 1rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 4rem;
+    }
+
+    #horoscope h2 {
+        padding-bottom: 8rem;
+    }
+
+    #horoscope h4 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    #horoscope p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .teem {
+        padding: 10rem 0rem;
+    }
+
+    .teem h3 {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    #Appointment {
+        padding-bottom: 10rem;
+    }
+
+    .app-from .from-label {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+        padding: 1rem;
+    }
+
+    .mem-data {
+        padding: 5rem 0;
+    }
+
+    #member-price {
+        padding: 10rem 0
+    }
+
+    .member-block {
+        margin: 5rem 3rem;
+        padding: 4rem 4.5rem;
+    }
+
+    .member-block h3 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .member-block h3 span {
+        font-size: 2rem;
+    }
+
+    .member-block li {
+        padding-top: 2rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .member-block li i {
+        margin-right: 1rem;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .member-block .member-btn {
+        text-align: center;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    #CLIENT .main-img {
+        padding: 4rem 0rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 1rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 17rem;
+    }
+
+    #CLIENT .slider-data img {
+        max-width: 50%;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 6rem;
+        width: 34rem;
+    }
+
+    .client-slider .slider-data h6 {
+        padding-top: 1rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 40rem;
+        width: 11%;
+        left: -2rem;
+    }
+
+    #blog {
+        padding: 10rem 0;
+    }
+
+    .blog-data {
+        padding: 6rem 2rem 0rem 0rem;
+    }
+
+    .blog-data img {
+        max-width: 85%;
+    }
+
+    #blog h4 {
+        font-size: 2rem;
+        padding: 3rem 0 0rem 0;
+        width: 23.1rem;
+    }
+
+    .blog-data p {
+        font-size: 1.4rem;
+        width: 26.1rem;
+        line-height: 2rem;
+    }
+
+    #BOODOO {
+        padding-bottom: 10rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 3rem;
+        line-height: 2rem;
+        padding: 0 0 1rem 2rem;
+    }
+
+    .footer-data {
+        padding: 5rem 0;
+    }
+}
+
+@media screen and (max-width:1649px) {
+    #hero {
+        padding-top: 20rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 5rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        padding: 1rem 0rem;
+    }
+
+    .btn-danger {
+        font-size: 1.8rem;
+        width: 17rem;
+        height: 4.5rem;
+    }
+
+    #Discover {
+        padding-top: 8rem;
+    }
+
+    .Discover-data img {
+        max-width: 65%;
+    }
+
+    #Discover h4 {
+        font-size: 3rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 7rem;
+        width: 36%;
+    }
+
+    .dic-all-img {
+        padding: 1rem 0 8rem 0;
+    }
+
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 1rem;
+    }
+
+    .main-title h2 {
+        font-size: 4.5rem;
+        line-height: 6.5rem;
+    }
+
+    .main-title h5 {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+
+    #Discover p {
+        padding-top: 3rem;
+        font-size: 1.6rem;
+        width: 40rem;
+    }
+
+    .dis-line::before {
+        left: -14rem;
+        height: 26.6rem;
+    }
+
+    #super {
+        padding: 8rem 0;
+    }
+
+    #super h2 {
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 2rem;
+        padding-left: 5rem;
+    }
+
+    #super p {
+        padding-top: 0rem;
+        font-size: 1.5rem;
+        max-width: 31rem;
+        line-height: 2rem;
+    }
+
+    #services {
+        padding-bottom: 8rem;
+    }
+
+    #services h2 {
+        padding-bottom: 4rem;
+    }
+
+    #services p {
+        line-height: 2.5rem;
+    }
+
+    #services .ser-1 {
+        padding: 4rem;
+    }
+
+    .serv {
+        margin: 0rem 15rem;
+        gap: 4rem 0;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 2.2rem;
+        padding: 2rem 0 0rem 0;
+        line-height: 3rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 5rem;
+    }
+
+    #why img {
+        margin-left: 11rem;
+        width: 30%;
+    }
+
+    #why h4 {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem 0 0 0;
+    }
+
+    #why p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    #horoscope {
+        padding-top: 8rem;
+    }
+
+    #horoscope h2 {
+        padding-bottom: 4rem;
+    }
+
+    .hor-id {
+        margin: 0 2rem;
+    }
+
+    .hor-id img {
+        width: 46%;
+        height: 60%;
+    }
+
+    .horo-2 {
+        padding-top: 1rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 1rem;
+    }
+
+    #horoscope .hor-data {
+        padding: 0rem 0rem 0 2rem;
+    }
+
+    #horoscope h4 {
+        font-size: 2.5rem;
+    }
+
+    #horoscope p {
+        font-size: 1.5rem;
+    }
+
+    .teem {
+        padding: 8rem 0rem;
+    }
+
+    #horoscope h5 {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+
+    .teem h3 {
+        font-size: 5rem;
+    }
+
+    #Appointment {
+        padding-bottom: 8rem;
+    }
+
+    .app-from .from-label {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 2.5rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .mem-data {
+        padding: 4rem 0;
+    }
+
+    .mem-data p {
+        padding-bottom: 4rem;
+        line-height: 2rem;
+    }
+
+    #member-price {
+        padding: 8rem 0;
+    }
+
+    .member-block h6 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .member-block h3 {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+
+    .member-block {
+        margin: 7rem 3rem;
+        padding: 3rem 5rem;
+    }
+
+    .member-block li {
+        line-height: 2.5rem;
+    }
+
+    .member-block li i {
+        font-size: 2rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 2rem;
+    }
+
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+        top: 33.5rem;
+    }
+
+    .client-slider .slider-data h6 {
+        padding-top: 0rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 0.8rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        margin: 0 5rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 27.5rem;
+    }
+
+    .swiper {
+        padding: 0 20rem 0 0rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 5rem;
+        width: 23rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    #blog {
+        padding: 8rem 0;
+    }
+
+    .blog-data img {
+        max-width: 80%;
+    }
+
+    .blog-data {
+        padding: 5rem 2rem 0rem 6rem;
+    }
+
+    #blog h4 {
+        font-size: 1.8rem;
+        padding: 3rem 0 1rem 0;
+        line-height: 2.5rem;
+    }
+
+    .blog-data p {
+        font-size: 1.2rem;
+        width: 22rem;
+    }
+
+    #BOODOO {
+        padding-bottom: 7rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 2.3rem;
+        line-height: 1rem;
+        padding: 0 0 1rem 2rem;
+    }
+
+    .footer-data {
+        padding: 4rem 0;
+    }
+
+    #BOODOO ul li {
+        font-size: 1.3rem;
+        padding-bottom: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .footer-data p {
+        max-width: 18.3rem;
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .fo-block img {
+        max-width: 90%;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:1399px) {
+    #hero .hero-data h1 {
+        font-size: 5rem;
+        line-height: 6.5rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.3rem;
+        padding: 1rem 0rem;
+        line-height: 2rem;
+    }
+
+    .btn-danger {
+        font-size: 1.7rem;
+        width: 15rem;
+        height: 4rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 5rem;
+    }
+
+    #Discover {
+        padding-top: 6rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 6rem;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 6rem 0;
+    }
+
+    #Discover p {
+        padding-top: 3rem;
+        font-size: 1.3rem;
+        width: 30rem;
+    }
+
+    .main-title h2 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .teem h5 {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+
+    .dis-line::before {
+        height: 26.6rem;
+        left: -12rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 6rem;
+    }
+
+    #super {
+        padding: 6rem 0;
+    }
+
+    #super h2 {
+        font-size: 5rem;
+        line-height: 7.1rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 1.4rem;
+    }
+
+    #super p {
+        font-size: 1.3rem;
+        max-width: 33.5rem;
+    }
+
+    #services {
+        padding-bottom: 6rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 6rem;
+    }
+
+    #why img {
+        margin-left: 9.5rem;
+    }
+
+    #why h4 {
+        font-size: 1.8rem;
+    }
+
+    #why p {
+        font-size: 1rem;
+    }
+
+    #horoscope {
+        padding-top: 6rem;
+    }
+
+    #horoscope h2 {
+        padding-bottom: 3rem;
+    }
+
+    #horoscope h4 {
+        font-size: 2rem;
+    }
+
+    .hor-id img {
+        width: 46%;
+        height: 60%;
+    }
+
+    .horo-2 {
+        padding-top: 0rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 0rem;
+    }
+
+    .teem {
+        padding: 6rem 0rem;
+    }
+
+    .teem h3 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .app-from .from-label {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        font-size: 1.7rem;
+    }
+
+    #Appointment {
+        padding-bottom: 6rem;
+    }
+
+    #member-price {
+        padding: 6rem 0;
+    }
+
+    .member-block {
+        margin: 3rem 3rem;
+        padding: 3rem 3.5rem;
+    }
+
+    .member-block h3 {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    .member-block li i {
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    .member-block li {
+        padding-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        width: 23rem;
+        height: 5rem;
+    }
+
+    #CLIENT .main-img {
+        padding: 3rem 0rem;
+    }
+
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+        top: 28.5rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 7.5rem;
+        margin: 0 14rem
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 4rem;
+        width: 23.5rem;
+        font-size: 1.3rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 34rem;
+        left: -2rem;
+    }
+
+    .client-slider .slider-data h6 {
+        font-size: 2.4rem;
+        line-height: 1.3rem;
+        padding-top: 0rem;
+    }
+
+    #blog {
+        padding: 6rem 0;
+    }
+
+    .blog-data {
+        padding: 4rem 1rem 0rem 4rem;
+    }
+
+    #blog h4 {
+        font-size: 1.8rem;
+        padding: 3rem 0 0rem 0;
+        width: 29.1rem;
+    }
+
+    .blog-data p {
+        font-size: 1.1rem;
+        width: 23.1rem;
+        line-height: 1.5rem;
+    }
+
+    #BOODOO ul li {
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        line-height: 2rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 2rem;
+        padding: 1rem 0 1rem 2rem;
+    }
+
+    .footer-data p {
+        max-width: 27.3rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .footer-data {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #hero {
+        padding-top: 16rem;
+
+    }
+
+    .hero-data {
+        padding-bottom: 4rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 4rem;
+        line-height: 5.5rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        line-height: 1.5rem;
+    }
+
+    .btn-danger {
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 3.5rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 3rem;
+    }
+
+    #Discover {
+        padding-top: 4rem;
+    }
+
+    #Discover h4 {
+        font-size: 2.5rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 5rem;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 4rem 0;
+    }
+
+    .main-title h2 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .dis-line::before {
+        height: 19.6rem;
+        left: -9rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 2rem;
+    }
+
+    #Discover p {
+        padding-top: 1rem;
+        font-size: 1rem;
+        width: 27rem;
+        line-height: 2rem;
+    }
+
+    #super {
+        padding: 4rem 0;
+    }
+
+    #super h2 {
+        font-size: 4rem;
+        line-height: 6.1rem;
+    }
+
+    #super p {
+        font-size: 1rem;
+        max-width: 30.5rem;
+    }
+
+    #services h2 {
+        padding-bottom: 3rem;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 2rem;
+        padding: 1rem 0 0rem 0;
+        line-height: 2.5rem;
+    }
+
+    #services p {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    #services .ser-1 {
+        padding: 2rem;
+    }
+
+    .serv {
+        gap: 2rem 0;
+    }
+
+    #services {
+        padding-bottom: 4rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 4rem;
+    }
+
+    #why img {
+        margin-left: 8rem;
+    }
+
+    #why h4 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #horoscope {
+        padding-top: 4rem;
+    }
+
+    #horoscope h4 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    #horoscope p {
+        font-size: 1rem;
+    }
+
+    .teem {
+        padding: 4rem 0rem;
+    }
+
+    #horoscope h5 {
+        font-size: 1.8rem;
+        line-height: 1rem;
+    }
+
+    .teem h3 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .app-from .from-label {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    #Appointment {
+        padding-bottom: 4rem;
+    }
+
+    .mem-data p {
+        padding-bottom: 1rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    #member-price {
+        padding: 4rem 0;
+    }
+
+    .member-block {
+        margin: 2rem 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .member-block h6 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .member-block h3 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .member-block li {
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        width: 17rem;
+        height: 3.5rem;
+    }
+
+    #CLIENT .main-img {
+        padding: 2rem 0rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 0.7rem;
+    }
+    #CLIENT .slider-data img {
+        max-width: 60%;
+    }
+    #CLIENT .swiper-wrapper {
+        padding: 0 8.5rem;
+        margin: 0 8rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 3rem;
+        width: 17.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+    }
+
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+        top: 21.5rem;
+    }
+
+    .client-slider .slider-data h6 {
+        font-size: 2rem;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 18px;
+    }
+
+    #blog {
+        padding: 4rem 0;
+    }
+
+    .blog-data img {
+        max-width: 75%;
+    }
+
+    #blog h4 {
+        font-size: 1.2rem;
+        padding: 1rem 0 0rem 0;
+        width: 15.1rem;
+        line-height: 2rem;
+    }
+
+    .blog-data p {
+        font-size: 1rem;
+        width: 15rem;
+        line-height: 1.5rem;
+    }
+
+    .fo-block img {
+        max-width: 85%;
+        padding-left: 2rem;
+    }
+
+    .footer-data p {
+        max-width: 20.3rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    #dark-header .main-header img {
+        max-width: 70%;
+    }
+
+    .main-header nav ul li a {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-right: 1rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 4rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 0.9rem;
+    }
+
+    .btn-danger {
+        font-size: 1rem;
+        width: 9rem;
+        height: 2.5rem;
+    }
+
+    #Discover {
+        padding-top: 3rem;
+    }
+
+    #Discover h4 {
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 3.8rem;
+    }
+
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 0.5rem;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .main-title h2 {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    .dis-line::before {
+        height: 14.6rem;
+        left: -6rem;
+    }
+
+    #Discover p {
+        width: 18rem;
+        line-height: 1.5rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 1rem;
+    }
+
+    #super h2 {
+        font-size: 3rem;
+        line-height: 5.1rem;
+    }
+
+    #super {
+        padding: 3rem 0;
+    }
+
+    .serv {
+        gap: 2rem 0;
+        margin: 0rem 10rem;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 1.8rem;
+        padding: 1rem 0 0rem 0;
+        line-height: 2rem;
+    }
+
+    #services {
+        padding-bottom: 3rem;
+    }
+
+    #why h4 {
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+
+    #why img {
+        margin-left: 5.5rem;
+    }
+
+    #horoscope {
+        padding-top: 3rem;
+    }
+
+    #horoscope p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #horoscope h4 {
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
+
+    .hor-id img {
+        width: 43%;
+        height: 54%;
+    }
+
+    .teem {
+        padding: 3rem 0rem;
+    }
+
+    #horoscope h5 {
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
+
+    .teem h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .app-from .from-label {
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    #Appointment {
+        padding-bottom: 3rem;
+    }
+
+    #member-price {
+        padding: 3rem 0;
+    }
+
+    .member-block {
+        margin: 2rem 1rem;
+        padding: 1rem 2rem;
+    }
+
+    .member-block li {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .member-block h3 span {
+        font-size: 1.8rem;
+    }
+
+    .member-block h6 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .member-block li i {
+        font-size: 1.5rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        width: 14rem;
+        height: 3rem;
+    }
+
+    .main-img img {
+        width: 0.5rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 3rem;
+        width: 19.5rem;
+    }
+
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+        top: 23.5rem;
+    }
+
+    .client-slider .slider-data span img {
+        width: 22%;
+    }
+
+    .client-slider .slider-data h6 {
+        font-size: 1.5rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 8.5rem;
+        margin: 0 2rem
+    }
+
+    #CLIENT .slider-data img {
+        max-width: 100%;
+    }
+
+    #blog {
+        padding: 3rem 0;
+    }
+
+    #blog .blslider {
+        margin-left: 2rem;
+    }
+
+    .blog-data img {
+        max-width: 65%;
+    }
+
+    .blog-data {
+        padding: 4rem 1rem 0rem 7rem;
+    }
+
+    .blog-data p {
+        font-size: 1rem;
+        width: 18rem;
+        line-height: 1.5rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 1.5rem;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    #BOODOO ul li a i {
+        padding-right: 0.5rem;
+    }
+
+    #BOODOO .fo-block ul {
+        padding-left: 1rem;
+    }
+
+    .fo-block img {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #dark-header .main-header img {
+        max-width: 60%;
+    }
+
+    .main-header nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 0.9rem;
+        margin-left: 8rem;
+        max-width: 350px;
+        line-height: 1.2rem;
+    }
+
+    .btn-danger {
+        font-size: 0.8rem;
+        width: 8rem;
+        height: 2rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 3.5rem;
+    }
+
+    #Discover .disim h4,
+    #Discover .disim2 h4 {
+        margin-right: 2rem;
+    }
+
+    #Discover .disim {
+        width: 30%;
+        margin-left: 10rem;
+    }
+
+    #Discover .disim2 {
+        width: 30%;
+        margin-right: 8rem;
+    }
+
+    #Discover h4 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 4.3rem;
+    }
+
+    .dic-all-img {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .dis-line::before {
+        height: 13.6rem;
+        left: 0rem;
+    }
+
+    .main-title h2 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    #super h2 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    #super p {
+        max-width: 17.5rem;
+        line-height: 1.5rem;
+    }
+
+    #services h2 {
+        padding-bottom: 2rem;
+    }
+
+    .serv {
+        gap: 1rem 0;
+        margin: 0rem 3rem;
+    }
+
+    #services .ser-1 {
+        padding: 1.5rem;
+        margin: 2rem;
+    }
+
+    #why img {
+        margin-left: 4rem;
+    }
+
+    #why h4 {
+        line-height: 1.8rem;
+    }
+
+    .horo-2 {
+        padding: 1rem 0;
+    }
+
+    .hor-id img {
+        width: 50%;
+        height: 56%;
+    }
+
+    #horoscope h4 {
+        font-size: 1.3rem;
+        line-height: 0.5rem;
+    }
+
+    #horoscope .hor-data {
+        padding: 0rem 0rem 0 1rem;
+    }
+
+    .teem h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #Appointment .main-title {
+        text-align: center;
+    }
+
+    #Appointment .app-from {
+        padding-top: 2rem;
+        margin-left: 5rem;
+    }
+
+    .app-from1,
+    .app-from2 {
+        padding-right: 4rem;
+    }
+
+    #Appointment .btn-danger {
+        margin-right: 3.5rem;
+    }
+
+    .member-block li {
+        padding-top: 0rem;
+    }
+
+    .membl-3 {
+        display: inline-block;
+        width: 44.5%;
+    }
+
+    .membl-2 {
+        text-align: center;
+    }
+
+    .member-block {
+        text-align: start;
+        margin: 1rem 2rem;
+        padding: 1rem 2rem;
+    }
+
+    #CLIENT .slider-data img {
+        max-width: 59%;
+        
+    }
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+        top: 20.5rem;
+    }
+    .swiper {
+        padding: 0 25rem 0 0rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 0.5rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 2.5rem;
+        margin: 0 2rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 3rem;
+        width: 15.5rem;
+    }
+
+    .client-slider .slider-data span img {
+        width: 13%;
+    }
+
+    /* #CLIENT .slider-data img {
+        left: -1rem;
+        top: 19rem;
+    } */
+    .blog-data {
+        padding: 2rem 1rem 0rem 3rem;
+    }
+
+    .blog-data img {
+        max-width: 80%;
+    }
+
+    #BOODOO ul li {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        line-height: 1rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 1.4rem;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .footer-data {
+        padding: 1rem 0;
+    }
+
+    #BOODOO .copyright {
+        padding: 2rem 0;
+    }
+
+    #BOODOO {
+        padding: 1rem 0 4rem 0
+    }
+
+    #BOODOO .fo-img-logo img {
+        max-width: 75%;
+        padding-left: 0rem;
+    }
+
+    #BOODOO .fo-img-logo p {
+        padding-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .fo-block img {
+        max-width: 75%;
+    }
+
+    .data {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .main-header nav ul li a {
+        font-size: 1rem;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    #hero {
+        padding-top: 12rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 3rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 0.9rem;
+        margin-left: 14.5rem;
+        max-width: 249px;
+        line-height: 1rem;
+        padding: 0rem;
+    }
+
+    .main-header nav ul {
+        margin-right: 3rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 3.5rem;
+    }
+
+    #Discover h4 {
+        font-size: 1.8rem;
+    }
+
+    .dis-line::before {
+        height: 11.6rem;
+        left: 2rem;
+    }
+
+    .Discover-data img {
+        max-width: 75%;
+    }
+
+    .main-title h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    #super h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0rem 0;
+        line-height: 2rem;
+    }
+
+    #services .ser-1 {
+        padding: 1rem;
+        margin: 0rem;
+    }
+
+    #why img {
+        margin-left: 3.5rem;
+    }
+
+    .hor-id {
+        margin: 0 1rem;
+    }
+
+    .member-block {
+        text-align: start;
+        margin: 2rem 0rem;
+        padding: 1rem 1rem;
+    }
+    #CLIENT .main-img img {
+        width: 0.4rem;
+    }
+    #CLIENT .swiper-wrapper {
+        padding: 0 2.5rem;
+        margin: 0 4rem;
+    }
+    .client-slider .slider-data p {
+        padding-top: 2rem;
+        width: 12rem;
+    }
+    #CLIENT .slider-data img {
+        left: -1rem;
+        top: 14rem;
+    }
+
+    /* .swiper {
+        padding: 0 25rem 0 0rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        margin: 0 4rem;
+    }
+
+    #CLIENT .slider-data img {
+        max-width: 50%;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 3rem;
+        width: 13.5rem;
+    }
+
+    #CLIENT .slider-data img {
+        left: -1rem;
+        top: 15rem;
+    } */
+
+    /* .icone .swiper-button-next,
+    .swiper-button-prev {
+        top: 22%;
+    } */
+
+    .blog-data p {
+        width: 13rem;
+        line-height: 1.2rem;
+    }
+}
+
+/* .scrollTop {
+    position: fixed;
+    right: 10%;
+    bottom: 10px;
+    background-color: #BE3F48;
+    padding: 10px 50px;
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+    font-size: 25px;
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
+/***********container***************/
+
+
+@media screen and (min-width:1649px) {
+    .container {
+        max-width: 150rem;
+    }
+}
+
+@media screen and (min-width:1919px) {
+    .container {
+        max-width: 170rem;
+    }
+}
+
+/* @media screen and (max-width:1650px) {
+    #hero .hero-data {
+        padding-bottom: 7rem;
+    }
+
+    #hero .hero-data h1 {
+        font-size: 8rem;
+        line-height: 10rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding: 2rem 0rem;
+    }
+
+    .btn-danger {
+        font-size: 2rem;
+        width: 20rem;
+        height: 5rem;
+    }
+
+    #Discover {
+        padding-top: 10rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 6rem;
+        max-width: 45%;
+    }
+
+    #Discover h4 {
+        font-size: 3.5rem;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 10rem 0;
+    }
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 1.3rem;
+    }
+
+    .Discover-data img {
+        max-width: 70%;
+    }
+
+    #Discover p {
+        padding-top: 7rem;
+        width: 46.5rem;
+    }
+
+    .dis-line::before {
+        left: -5rem;
+        height: 34rem;
+    }
+
+    .main-title h2 {
+        font-size: 5.5rem;
+        line-height: 8rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 3rem;
+    }
+
+    #super {
+        padding: 10rem 0;
+    }
+
+    #super p {
+        padding-top: 4rem;
+    }
+
+    #super h2 {
+        font-size: 7rem;
+        line-height: 11rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 4.4rem;
+        max-width: 95%;
+    }
+
+    #services {
+        padding-bottom: 10rem;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 2.9rem;
+        padding: 2rem 0 0 0;
+        line-height: 5rem;
+    }
+
+    .serv {
+        gap: 6rem 0;
+        margin: 0 8rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 10rem;
+    }
+
+    #why img {
+        margin-left: 10rem;
+        max-width: 35%;
+    }
+
+    #why h4 {
+        font-size: 2.5rem;
+        padding: 1rem 0
+    }
+
+    #why p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .hor-id {
+        margin: 0 3.5rem;
+    }
+
+    .horo-2 {
+        padding-top: 4rem;
+    }
+
+    #horoscope {
+        padding-top: 10rem;
+    }
+
+    .hor-id img {
+        width: 67%;
+        height: 67%;
+    }
+
+    #horoscope .hor-data {
+        padding: 0rem 1rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 4rem;
+    }
+
+    #horoscope h2 {
+        padding-bottom: 8rem;
+    }
+
+    #horoscope h4 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    #horoscope p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .teem {
+        padding: 10rem 0rem;
+    }
+
+    .teem h3 {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    #Appointment {
+        padding-bottom: 10rem;
+    }
+
+    .app-from .from-label {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+        padding: 1rem;
+    }
+
+    .mem-data {
+        padding: 5rem 0;
+    }
+
+    #member-price {
+        padding: 10rem 0
+    }
+
+    .member-block {
+        margin: 5rem 3rem;
+        padding: 4rem 4.5rem;
+    }
+
+    .member-block h3 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .member-block h3 span {
+        font-size: 2rem;
+    }
+
+    .member-block li {
+        padding-top: 2rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .member-block li i {
+        margin-right: 1rem;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .member-block .member-btn {
+        text-align: center;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    #CLIENT .main-img {
+        padding: 4rem 0rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 1rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 17rem;
+    }
+
+    #CLIENT .slider-data img {
+        max-width: 50%;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 6rem;
+        width: 34rem;
+    }
+
+    .client-slider .slider-data h6 {
+        padding-top: 1rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 40rem;
+        width: 11%;
+        left: -2rem;
+    }
+
+    #blog {
+        padding: 10rem 0;
+    }
+
+    .blog-data {
+        padding: 6rem 2rem 0rem 0rem;
+    }
+
+    .blog-data img {
+        max-width: 85%;
+    }
+
+    #blog h4 {
+        font-size: 2rem;
+        padding: 3rem 0 0rem 0;
+        width: 23.1rem;
+    }
+
+    .blog-data p {
+        font-size: 1.4rem;
+        width: 26.1rem;
+        line-height: 2rem;
+    }
+
+    #BOODOO {
+        padding-bottom: 10rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 3rem;
+        line-height: 2rem;
+        padding: 0 0 1rem 2rem;
+    }
+
+    .footer-data {
+        padding: 5rem 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1399px) {
+    #hero .hero-data h1 {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 6rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        padding: 1rem 0rem;
+    }
+
+    .btn-danger {
+        font-size: 1.8rem;
+        width: 17rem;
+        height: 4.5rem;
+    }
+
+    #Discover {
+        padding-top: 8rem;
+    }
+
+    #Discover h4 {
+        font-size: 3rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 5.4rem;
+        width: 40%;
+    }
+
+    .dic-all-img {
+        padding: 1rem 0 8rem 0;
+    }
+
+    .dic-all-img:nth-child(4) h4 {
+        padding-top: 1rem;
+    }
+
+    .main-title h2 {
+        font-size: 4.5rem;
+        line-height: 6.5rem;
+    }
+
+    .main-title h5 {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+
+    #Discover p {
+        padding-top: 3rem;
+        font-size: 1.6rem;
+        width: 40rem;
+    }
+
+    .dis-line::before {
+        left: -4rem;
+        height: 26.6rem;
+    }
+
+    #super {
+        padding: 8rem 0;
+    }
+
+    #super h2 {
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 2rem;
+        padding-left: 5rem;
+    }
+
+    #super p {
+        padding-top: 0rem;
+        font-size: 1.5rem;
+        max-width: 31rem;
+        line-height: 2rem;
+    }
+
+    #services {
+        padding-bottom: 8rem;
+    }
+
+    #services h2 {
+        padding-bottom: 4rem;
+    }
+
+    #services p {
+        line-height: 2.5rem;
+    }
+
+    #services .ser-1 {
+        padding: 4rem;
+    }
+
+    .serv {
+        margin: 0rem 12rem;
+        gap: 4rem 0;
+    }
+
+    #services .ser-1 h4 {
+        font-size: 2.2rem;
+        padding: 2rem 0 0rem 0;
+        line-height: 3rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 5rem;
+    }
+
+    #why img {
+        margin-left: 9.5rem;
+        width: 30%;
+    }
+
+    #why h4 {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem 0 0 0;
+    }
+
+    #why p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    #horoscope {
+        padding-top: 8rem;
+    }
+
+    #horoscope h2 {
+        padding-bottom: 4rem;
+    }
+
+    .hor-id {
+        margin: 0 2rem;
+    }
+
+    .hor-id img {
+        width: 46%;
+        height: 60%;
+    }
+
+    .horo-2 {
+        padding-top: 1rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 1rem;
+    }
+
+    #horoscope .hor-data {
+        padding: 0rem 0rem 0 2rem;
+    }
+
+    #horoscope h4 {
+        font-size: 2.5rem;
+    }
+
+    #horoscope p {
+        font-size: 1.5rem;
+    }
+
+    .teem {
+        padding: 8rem 0rem;
+    }
+
+    #horoscope h5 {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+
+    .teem h3 {
+        font-size: 5rem;
+    }
+
+    #Appointment {
+        padding-bottom: 8rem;
+    }
+
+    .app-from .from-label {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 2.5rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .mem-data {
+        padding: 4rem 0;
+    }
+
+    .mem-data p {
+        padding-bottom: 4rem;
+        line-height: 2rem;
+    }
+
+    #member-price {
+        padding: 8rem 0;
+    }
+
+    .member-block h6 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .member-block h3 {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+
+    .member-block {
+        margin: 3rem 2rem;
+        padding: 4rem 3rem;
+    }
+
+    .member-block li {
+        line-height: 2.5rem;
+    }
+
+    .member-block li i {
+        font-size: 2rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 2rem;
+    }
+
+    #CLIENT .slider-data img {
+        left: -1.5rem;
+    }
+
+    #CLIENT .main-img img {
+        width: 0.8rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        margin: 0 5rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 27.5rem;
+    }
+
+    .swiper {
+        padding: 0 20rem 0 0rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 3rem;
+        width: 23rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    #blog {
+        padding: 8rem 0;
+    }
+
+    .blog-data img {
+        max-width: 80%;
+    }
+
+    .blog-data {
+        padding: 6rem 2rem 0rem 0rem;
+    }
+
+    #blog h4 {
+        font-size: 1.8rem;
+        padding: 3rem 0 1rem 0;
+        line-height: 2.5rem;
+    }
+
+    .blog-data p {
+        font-size: 1.2rem;
+        width: 22rem;
+    }
+
+    #BOODOO {
+        padding-bottom: 7rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 2.3rem;
+        line-height: 1rem;
+        padding: 0 0 1rem 2rem;
+    }
+
+    .footer-data {
+        padding: 4rem 0;
+    }
+
+    #BOODOO ul li {
+        font-size: 1.3rem;
+        padding-bottom: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .footer-data p {
+        max-width: 18.3rem;
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .fo-block img {
+        max-width: 90%;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #hero .hero-data h1 {
+        font-size: 5rem;
+        line-height: 6.5rem;
+    }
+
+    #hero .hero-data p {
+        font-size: 1.3rem;
+        padding: 1rem 0rem;
+        line-height: 2rem;
+    }
+
+    .btn-danger {
+        font-size: 1.7rem;
+        width: 15rem;
+        height: 4rem;
+    }
+
+    #hero .hero-data {
+        padding-bottom: 5rem;
+    }
+
+    #Discover {
+        padding-top: 12rem;
+    }
+
+    #Discover h4 {
+        font-size: 3.5rem;
+    }
+
+    .dic-all-img img {
+        margin-left: 3.2rem;
+        width: 60%;
+    }
+
+    .dic-all-img {
+        padding: 2rem 0 12rem 0;
+    }
+
+    .Discover-data img {
+        max-width: 85%;
+    }
+
+    #Discover p {
+        padding-top: 5rem;
+        font-size: 1.3rem;
+        width: 40rem;
+    }
+
+    .main-title h2 {
+        font-size: 5rem;
+        line-height: 9rem;
+    }
+
+    .teem h5 {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+
+    .dis-line::before {
+        height: 37.6rem;
+    }
+
+    #Discover .btn-danger {
+        margin-top: 6rem;
+    }
+
+    #super {
+        padding: 12rem 0;
+    }
+
+    #super h2 {
+        font-size: 7rem;
+        line-height: 10.1rem;
+    }
+
+    #super .super-img {
+        margin-bottom: 1.4rem;
+    }
+
+    #super p {
+        font-size: 1.3rem;
+        max-width: 33.5rem;
+    }
+
+    #services {
+        padding-bottom: 12rem;
+    }
+
+    .why-data h2 {
+        padding-bottom: 6rem;
+    }
+
+    #why img {
+        margin-left: 6rem;
+    }
+
+    #why h4 {
+        font-size: 1.8rem;
+    }
+
+    #why p {
+        font-size: 1rem;
+    }
+
+    #horoscope {
+        padding-top: 12rem;
+    }
+
+    #horoscope h4 {
+        font-size: 3.5rem;
+    }
+
+    #horoscope p {
+        font-size: 1.4rem;
+    }
+
+    .horo-2 {
+        padding-top: 7rem;
+    }
+
+    #horoscope .btn-danger {
+        margin-top: 7rem;
+    }
+
+    .teem {
+        padding: 12rem 0rem;
+    }
+
+    .teem h3 {
+        font-size: 5rem;
+        line-height: 10rem;
+    }
+
+    .app-from .from-label {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .app-from .form-control,
+    .form-select {
+        margin-bottom: 3rem;
+        padding: 2rem 1rem;
+        font-size: 1.7rem;
+    }
+
+    #Appointment {
+        padding-bottom: 12rem;
+    }
+
+    #member-price {
+        padding: 12rem 0;
+    }
+
+    .member-block h3 {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    .member-block li i {
+        margin-right: 1rem;
+        font-size: 3rem;
+    }
+
+    .member-block li {
+        padding-top: 2rem;
+        font-size: 1.4rem;
+    }
+
+    .member-block .btn-danger {
+        margin-top: 4rem;
+        font-size: 2rem;
+        width: 25rem;
+        height: 6rem;
+    }
+
+    #CLIENT .main-img {
+        padding: 4rem 0rem;
+    }
+
+    #CLIENT .swiper-wrapper {
+        padding: 0 8.5rem;
+    }
+
+    .client-slider .slider-data p {
+        padding-top: 6rem;
+        width: 29.5rem;
+        font-size: 1.3rem;
+    }
+
+    .client-slider .slider-data span img {
+        top: 34rem;
+        left: -2rem;
+    }
+
+    .client-slider .slider-data h6 {
+        font-size: 2.4rem;
+        line-height: 1.3rem;
+        padding-top: 0rem;
+    }
+
+    #blog {
+        padding: 12rem 0;
+    }
+
+    .blog-data {
+        padding: 4rem 1rem 0rem 0rem;
+    }
+
+    #blog h4 {
+        font-size: 2rem;
+        padding: 3rem 0 1rem 0;
+        width: 32.1rem;
+    }
+
+    .blog-data p {
+        font-size: 1.1rem;
+        width: 23.1rem;
+        line-height: 2rem;
+    }
+
+    #BOODOO ul li {
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        line-height: 2rem;
+    }
+
+    #BOODOO h4 {
+        font-size: 2.5rem;
+        padding: 1rem 0 1rem 2rem;
+    }
+
+    .footer-data p {
+        max-width: 27.3rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .footer-data {
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (min-width:1650px) {
+    .container {
+        max-width: 150rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .container {
+        min-width: 170rem;
+        padding: 0 1rem;
+    }
+} */
